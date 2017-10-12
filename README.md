@@ -3,6 +3,11 @@ Cyberoam login cli client written with python
 
 ## Usage
 
+- Install the dependencies
+```
+pip install -r requirements.txt
+```
+
 - Run with the python
 
 ```
