@@ -1,5 +1,11 @@
-# cyberoamCliClient
+# Cyberoam CLI Client
 Cyberoam login cli client written with python
+
+## Prerequisites
+
+- Python 2.7+
+- [Virtualenv](https://virtualenv.pypa.io/en/latest/)
+
 
 ## Usage
 
