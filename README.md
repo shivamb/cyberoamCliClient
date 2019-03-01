@@ -1,10 +1,10 @@
 # Cyberoam CLI Client
-Cyberoam login cli client written with python
+Opensource Cyberoam login cli client written with python. Cross compatible with Operating Systems.
 
 ## Prerequisites
 
 - Python 2.7+
-- [Virtualenv](https://virtualenv.pypa.io/en/latest/)
+- [Virtualenv](https://virtualenv.pypa.io/en/latest/) (Optional)
 
 
 ## Usage
