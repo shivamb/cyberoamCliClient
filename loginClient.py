@@ -1,6 +1,7 @@
 #!/usr/bin/python
 import datetime
 import requests # Install with 'pip install requests'
+import os # For reading env vars
 
 import xml.etree.ElementTree as ET
 
@@ -8,8 +9,8 @@ cr_login_url='http://192.168.0.1:8090/login.xml'
 cr_keep_alive_url='http://192.168.0.1:8090/live'
 cr_logout_url='http://192.168.0.1:8090/logout.xml'
 
-cr_username='username'
-cr_password='password'
+cr_username=os.environ['CR_USERNAME']
+cr_password=os.environ['CR_PASSWORD']
 
 def print_log(log_text):
   print("%s - " % datetime.datetime.now() + log_text)
